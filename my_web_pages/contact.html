@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>BreastFeeding-About&middot; Web_App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    
+    <link href="../assets/css/bootstrap.css" rel="stylesheet" type="text/css"/>
+	<link href="../assets/css/bootstrap-responsive.css" rel="stylesheet" type="text/css"/>
+	<link href="../assets/css/cs1.css" rel="stylesheet" type="text/css"/>
+    <link href="../assets/css/internal.css" rel="stylesheet" type="text/css"/>
+    <link href="../assets/css/button.css" type="text/css" rel="stylesheet"/>
+
+	<!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="../assets/js/html5shiv.js"></script>
+    <![endif]-->
+
+    <!-- Fav and touch icons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="../assets/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="../assets/ico/apple-touch-icon-114-precomposed.png">
+      <link rel="apple-touch-icon-precomposed" sizes="72x72" href="../assets/ico/apple-touch-icon-72-precomposed.png">
+                    <link rel="apple-touch-icon-precomposed" href="../assets/ico/apple-touch-icon-57-precomposed.png">
+                                   <link rel="shortcut icon" href="../assets/ico/favicon.png">
+    
+	
+
+  </head>
+  <body>
+
+ <!--Navigation Bar-->
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="brand" href="index.html">Promoting BreastFeeding</a>
+          <div class="nav-collapse collapse">
+            <ul class="nav">
+              <li class="active"><a href="index.html"><i class="icon-home icon-white"></i>Home</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="contact.html"><i class="icon-envelope icon-white"></i>Contact Us</a></li>
+             </ul>
+            <form class="navbar-form pull-right">
+             <a class="btn btn-large btn-primary" href="form.html"><i class="icon-pencil icon-white"></i>Register Yourself</a></p>
+            </form>
+          </div><!--/.nav-collapse -->
+        </div>
+      </div>
+    </div>
+
+
+<!--Contact Us Form-->
+<form class="jotform-form" action="contact.php" method="post" name="contact" id="contact" accept-charset="utf-8" style="margin-left:450px">
+  <input type="hidden" name="formID" />
+  <div class="form-all">
+    <ul class="form-section">
+      <li class="form-line">
+        <div class="form-input-wide">
+          <div  class="form-html">
+            <div style="text-align: center;">
+              Contact Us
+            </div>
+          </div>
+        </div>
+      </li>
+      <li class="form-line">
+        <label class="form-label-top" for="name">
+          Name<span class="form-required">*</span>
+        </label>
+        <div  class="form-input-wide">
+          <input type="text" class=" form-textbox validate[required]" data-type="input-textbox" id="name" name="name" size="40" required/>
+        </div>
+      </li>
+      <li class="form-line">
+        <label class="form-label-top" for="mail">
+          E-mail<span class="form-required">*</span>
+        </label>
+        <div  class="form-input-wide">
+          <input type="email" class="form-textbox" id="mail" name="mail" size="50" required />
+        </div>
+      </li>
+      
+      <li class="form-line">
+        <label class="form-label-top" for="message">
+          Message<span class="form-required">*</span>
+        </label>
+        <div class="form-input-wide">
+          <textarea id="message" class="form-textarea validate[required]" name="message" cols="40" rows="6" required></textarea>
+        </div>
+      </li>
+      <li class="form-line">
+        <div  class="form-input-wide">
+          <div style="text-align:center" class="form-buttons-wrapper">
+            <button type="submit" class="form-submit-button form-submit-button-book_blue2">
+              Mail Now!
+            </button>
+          </div>
+        </div>
+      </li>
+      
+    </ul>
+  </div>
+  </form>
+
+   <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="../assets/js/jquery.js"></script>
+    <script src="../assets/js/bootstrap-transition.js"></script>
+    <script src="../assets/js/bootstrap-alert.js"></script>
+    <script src="../assets/js/bootstrap-modal.js"></script>
+    <script src="../assets/js/bootstrap-dropdown.js"></script>
+    <script src="../assets/js/bootstrap-scrollspy.js"></script>
+    <script src="../assets/js/bootstrap-tab.js"></script>
+    <script src="../assets/js/bootstrap-tooltip.js"></script>
+    <script src="../assets/js/bootstrap-popover.js"></script>
+    <script src="../assets/js/bootstrap-button.js"></script>
+    <script src="../assets/js/bootstrap-collapse.js"></script>
+    <script src="../assets/js/bootstrap-carousel.js"></script>
+    <script src="../assets/js/bootstrap-typeahead.js"></script>
+    <script src="../assets/js/js1.js"></script>
+
+    <script type="text/javascript">
+   JotForm.init(function(){
+      JotForm.highlightInputs = false;
+      JotForm.alterTexts({"alphabetic":"This field can only contain letters","alphanumeric":"This field can only contain letters and numbers.","confirmClearForm":"Are you sure you want to clear the form","confirmEmail":"E-mail does not match","email":"Enter a valid e-mail address","incompleteFields":"Please complete required (*) fields.","lessThan":"Your score should be less than","numeric":"This field can only contain numeric values","pleaseWait":"Please wait...","required":"This field is required.","uploadExtensions":"You can only upload following files:","uploadFilesize":"File size cannot be bigger than:"});
+   });
+</script>
+
+  </body>
+  </html>
